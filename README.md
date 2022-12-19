@@ -68,7 +68,7 @@ sql = <<-SQL
 SQL
 
 ActiveRecord::Base.connection.execute(sql)
-```
+  ```
 
 Using migrations, we will still need to establish Active Record's connection to
 the database, but **_we no longer need the SQL!_** Instead of dealing with SQL
